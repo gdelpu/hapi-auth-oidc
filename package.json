@@ -1,0 +1,39 @@
+{
+  "author": {
+    "name": "Grégory DELPU",
+    "email": "gdelpu@gmail.com",
+    "url": "https://github.com/JbIPS"
+  },
+  "bugs": {
+    "url": "https://github.com/JbIPS/hapi-oidc/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@hapi/hoek": "^9.0.4",
+    "hapi-auth-keycloak": "^5.0.1",
+    "openid-client": "^3.14.0"
+  },
+  "deprecated": false,
+  "description": "Hapi authentication scheme for OpenID Connect",
+  "devDependencies": {},
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/JbIPS/hapi-oidc",
+  "keywords": [
+    "openid",
+    "connect",
+    "hapi"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "gdelpu/hapi-oidc",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JbIPS/hapi-oidc.git"
+  },
+  "scripts": {
+    "lint": "eslint lib/**/*.js"
+  },
+  "version": "1.0.0"
+}
