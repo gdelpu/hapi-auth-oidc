@@ -1,8 +1,22 @@
 {
+  "name": "@gdelpu/hapi-auth-oidc",
+  "version": "0.1.0",
   "author": {
     "name": "Grégory DELPU",
     "email": "gdelpu@gmail.com",
     "url": "https://github.com/gdelpu/hapi-auth-oidc"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/gdelpu/hapi-auth-oidc",
+  "keywords": [
+    "openid",
+    "connect",
+    "hapi"
+  ],
+  "scripts": {
+    "lint": "eslint lib/**/*.js"
   },
   "bugs": {
     "url": "https://github.com/gdelpu/hapi-auth-oidc/issues"
@@ -15,25 +29,18 @@
   },
   "deprecated": false,
   "description": "Hapi authentication scheme for OpenID Connect",
-  "devDependencies": {},
-  "files": [
-    "lib"
-  ],
-  "homepage": "https://github.com/gdelpu/hapi-auth-oidc",
-  "keywords": [
-    "openid",
-    "connect",
-    "hapi"
-  ],
+  "devDependencies": {
+    "@hapi/code": "^8.0.1",
+    "@hapi/eslint-config-hapi": "^13.0.2",
+    "@hapi/eslint-plugin-hapi": "^4.3.5",
+    "@hapi/lab": "^22.0.4",
+    "coveralls": "^3.0.11",
+    "eslint": "^6.8.0"
+  },
   "license": "MIT",
   "main": "lib/index.js",
-  "name": "@gdelpu/hapi-auth-oidc",
   "repository": {
     "type": "git",
     "url": "https://github.com/gdelpu/hapi-auth-oidc.git"
-  },
-  "scripts": {
-    "lint": "eslint lib/**/*.js"
-  },
-  "version": "1.0.0"
+  }
 }
