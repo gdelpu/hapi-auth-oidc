@@ -1,4 +1,4 @@
-name: Node.js
+name: Build Node.js
 
 on: [push]
 
