@@ -1,11 +1,13 @@
 {
-  "name": "@gdelpu/hapi-auth-oidc",
+  "name": "@biker/hapi-auth-oidc",
   "version": "0.1.0",
   "author": {
     "name": "Grégory DELPU",
     "email": "gdelpu@gmail.com",
     "url": "https://github.com/gdelpu/hapi-auth-oidc"
   },
+  "deprecated": false,
+  "description": "Hapi authentication scheme for OpenID Connect",
   "files": [
     "lib"
   ],
@@ -27,8 +29,6 @@
     "hapi-auth-keycloak": "^5.0.1",
     "openid-client": "^3.14.0"
   },
-  "deprecated": false,
-  "description": "Hapi authentication scheme for OpenID Connect",
   "devDependencies": {
     "@hapi/code": "^8.0.1",
     "@hapi/eslint-config-hapi": "^13.0.2",
