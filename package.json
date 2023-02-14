@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@hapi/hoek": "^9.0.4",
-    "openid-client": "^5.1.7"
+    "openid-client": "^5.4.0"
   },
   "devDependencies": {
     "@hapi/code": "^8.0.1",
